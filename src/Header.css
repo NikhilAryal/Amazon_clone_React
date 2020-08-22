@@ -1,0 +1,81 @@
+
+.header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /*    To make the navbar sticky i.e not scrollable*/
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    /*    top refers from what point do you want the element to stick and z-index is priority, kinda */
+}
+
+.header__logo {
+    width: 100px;
+    margin-left:  20px ;
+    margin-top: 18px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+
+.header__searchIcon {
+    background-color: orange;
+    padding: 5px;
+    height: 25px !important;
+}
+
+.header__searchInput {
+    height: 14px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.header__search{
+    display: flex;
+    flex: 1;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 7px;
+}
+
+.header__link {
+    color: white;
+    text-decoration: none;
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.header__optionLineOne {
+    font-size: 10px;
+}
+
+.header__optionLineTwo {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.header__optionBasket {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.header__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header__checkout {
+    display: flex;
+    margin-left: 10px;
+    background-color: black;
+}
